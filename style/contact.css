@@ -1,0 +1,36 @@
+#contact-box {
+  background-color: white;
+  opacity: 88%;
+  width: 65vw;
+  height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: 10vw;
+  margin-left: 10vw;
+  position: absolute;
+  text-align: center;
+}
+
+#from-box {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: solid 2px rgba(133, 133, 133, 1);
+  font-size: 25px;
+  font-family: 'Advent Pro', sans-serif;
+  width: 85%;
+}
+
+#message-box {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: solid 2px rgba(133, 133, 133, 1);
+  font-size: 25px;
+  font-family: 'Advent Pro', sans-serif;
+  width: 85%;
+  height: 45%;
+}
+
+@media only screen and (max-width: 900px) {
+  #contact-box {
+    width: 80vw;
+  }
+}

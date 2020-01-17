@@ -1,0 +1,40 @@
+.img-w-border {
+  width: 30vw;
+  border-bottom: solid 50px white;
+  margin: 20px;
+}
+
+#col-container {
+  width: 85vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#horizontal-imgs, #vertical-imgs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  #col-container {
+    width: 100vw;
+  }
+  #horizontal-imgs {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #vertical-imgs {
+    width: 100%;
+  }
+  .img-w-border {
+    width: 70vw;
+  }
+}
