@@ -8,10 +8,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   font-family: 'Advent Pro', sans-serif;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 a {
